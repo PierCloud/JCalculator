@@ -20,7 +20,7 @@ import javax.swing.JPanel;
  Classe dedicata al Pannello Menu'
  pannello di avvio
  */
-public  class Menu extends JPanel implements ActionListener{
+public  class Menu extends JPanel implements ActionListener {
 
     private CaricatoreImmagini mioCaricatoreI;
     private BufferedImage sfondo;
@@ -34,15 +34,14 @@ public  class Menu extends JPanel implements ActionListener{
     private JFrame finestra;
     private GestorePannelli gestore;
     private int stato;
-    private boolean caricate=false;
-
+    private boolean caricate = false;
 
     /**
      Costruttore Pannello Menu
      @param finestra JFrame frame
       * @param gestore GestorePannelli
      */
-    public Menu(JFrame finestra,GestorePannelli gestore){
+    public Menu(JFrame finestra,GestorePannelli gestore) {
         System.out.println("COSTRUTTORE MENU'");
         this.gestore=gestore;
         this.finestra=finestra;

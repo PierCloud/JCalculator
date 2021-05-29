@@ -10,6 +10,7 @@ import java.awt.Color;
 import javax.swing.*;
 import java.lang.Math;
 
+// calculator class
 public class Calculator extends JPanel{
 
     private static final int WINDOW_WIDTH = 410;

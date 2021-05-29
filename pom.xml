@@ -16,12 +16,27 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/piercloud/jcalculator</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.7.0</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <version>3.1.1</version>
+            <type>maven-plugin</type>
         </dependency>
 
     </dependencies>
@@ -31,7 +46,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.1.2</version>
+                <version>3.1.1</version>
                 <reportSets>
                     <reportSet>
                         <reports>
@@ -45,6 +60,7 @@
 
     <build>
     <plugins>
+
     <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
@@ -57,6 +73,26 @@
             </archive>
         </configuration>
     </plugin>
+
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <version>3.1.1</version>
+            <configuration>
+                <configLocation>checkstyle.xml</configLocation>
+                <failsOnError>true</failsOnError>
+                <consoleOutput>true</consoleOutput>
+                <failOnViolation>false</failOnViolation>
+            </configuration>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>checkstyle</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+
     </plugins>
     </build>
 

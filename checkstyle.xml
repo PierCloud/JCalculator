@@ -8,9 +8,6 @@
         <module name="EmptyCatchBlock">
             <property name="exceptionVariableName" value="expected"/>
         </module>
-        <module name="WhitespaceAround">
-            <property name="allowEmptyConstructors" value="true"/>
-        </module>
         <module name="RedundantImport"/>
         <module name="OneStatementPerLine"/>
         <module name="MultipleVariableDeclarations"/>

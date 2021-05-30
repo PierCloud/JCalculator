@@ -40,8 +40,8 @@ jobs:
       - name: Publish Artifact
         uses: actions/upload-artifact@v2
         with:
-          path: target/InvasioneAliena-1.0-SNAPSHOT.jar
-          name: InvasioneAliena1.0
+          path: target/JCalculator-1.0-SNAPSHOT.jar
+          name: JCalculator1.0
         
   test:
     runs-on: ubuntu-latest

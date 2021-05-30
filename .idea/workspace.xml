@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="clean code to checkstyle suggestion">
+    <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="clean code: removed unused import">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyTest/CalculatorMyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyTest/CalculatorMyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyTest/CalculatorMyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/c/mytest/CalculatorMyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uni/c/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uni/c/calculator/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uni/c/calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uni/c/calculator/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uni/c/calculator/Menu$MioListner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uni/c/calculator/Menu$MioListner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uni/c/calculator/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uni/c/calculator/Menu.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +129,7 @@
       <workItem from="1621808908151" duration="3182000" />
       <workItem from="1622155634485" duration="380000" />
       <workItem from="1622285532347" duration="7064000" />
-      <workItem from="1622411612563" duration="1103000" />
+      <workItem from="1622411612563" duration="1600000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1622155782205</created>
@@ -184,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622412355534</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="clean code: removed unused import">
+      <created>1622412750346</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622412750346</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +221,7 @@
     <MESSAGE value="clean white space" />
     <MESSAGE value="removed whitespace check" />
     <MESSAGE value="clean code to checkstyle suggestion" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean code to checkstyle suggestion" />
+    <MESSAGE value="clean code: removed unused import" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean code: removed unused import" />
   </component>
 </project>

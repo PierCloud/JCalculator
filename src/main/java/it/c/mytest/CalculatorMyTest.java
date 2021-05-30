@@ -1,4 +1,4 @@
-package MyTest;
+package it.c.mytest;
 
 import java.awt.Cursor;
 import java.awt.Font;
@@ -21,11 +21,31 @@ public class CalculatorMyTest {
 
 
     private JFrame window; // Main window
-    private JComboBox<String> comboCalcType, comboTheme;
+    private JComboBox<String> comboCalcType;
+    private JComboBox<String> comboTheme;
     private JTextField inText; // Input
-    private JButton btnC, btnBack, btnMod, btnDiv, btnMul, btnSub, btnAdd,
-            btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9,
-            btnPoint, btnEqual, btnRoot, btnPower, btnLog;
+    private JButton btnC;
+    private JButton btnBack;
+    private JButton btnMod;
+    private JButton btnDiv;
+    private JButton btnMul;
+    private JButton btnSub;
+    private JButton btnAdd;
+    private JButton btn0;
+    private JButton btn1;
+    private JButton btn2;
+    private JButton btn3;
+    private JButton btn4;
+    private JButton btn5;
+    private JButton btn6;
+    private JButton btn7;
+    private JButton btn8;
+    private JButton btn9;
+    private JButton btnPoint;
+    private JButton btnEqual;
+    private JButton btnRoot;
+    private JButton btnPower;
+    private JButton btnLog;
 
     private char opt = ' '; // Save the operator
     private boolean go = true; // For calculate with Opt != (=)

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="removed whitespace check">
+    <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="clean code to checkstyle suggestion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyTest/CalculatorMyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyTest/CalculatorMyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +95,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
@@ -114,7 +126,7 @@
       <workItem from="1621808908151" duration="3182000" />
       <workItem from="1622155634485" duration="380000" />
       <workItem from="1622285532347" duration="7064000" />
-      <workItem from="1622411612563" duration="688000" />
+      <workItem from="1622411612563" duration="1103000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1622155782205</created>
@@ -165,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622325991700</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="clean code to checkstyle suggestion">
+      <created>1622412355534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622412355534</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +210,7 @@
     <MESSAGE value="clean" />
     <MESSAGE value="clean white space" />
     <MESSAGE value="removed whitespace check" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed whitespace check" />
+    <MESSAGE value="clean code to checkstyle suggestion" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean code to checkstyle suggestion" />
   </component>
 </project>

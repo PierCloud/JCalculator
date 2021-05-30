@@ -613,6 +613,9 @@ public class Calculator extends JPanel{
                 btnLog.setBackground(primaryDarkColor);
                 btnPower.setBackground(primaryDarkColor);
                 btnEqual.setBackground(primaryDarkColor);
+                break;
+            default:
+                return;
         }
     };
 

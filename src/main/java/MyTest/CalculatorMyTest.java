@@ -1,8 +1,5 @@
 package MyTest;
 
-
-import uni.c.calculator.GestorePannelli;
-
 import java.awt.Cursor;
 import java.awt.Font;
 import java.awt.event.ActionListener;
@@ -11,7 +8,7 @@ import java.util.function.Consumer;
 import java.util.regex.Pattern;
 import java.awt.Color;
 import javax.swing.*;
-import java.lang.Math;
+
 
 public class CalculatorMyTest {
 
@@ -501,6 +498,8 @@ public class CalculatorMyTest {
                 btnPower.setVisible(true);
                 btnLog.setVisible(true);
                 break;
+            default:
+                return ;
         }
     };
 
@@ -622,6 +621,9 @@ public class CalculatorMyTest {
                 btnLog.setBackground(primaryDarkColor);
                 btnPower.setBackground(primaryDarkColor);
                 btnEqual.setBackground(primaryDarkColor);
+                break;
+            default:
+                return ;
         }
     };
 

@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 import java.util.regex.Pattern;
 import java.awt.Color;
 import javax.swing.*;
-import java.lang.Math;
+
 
 // calculator class
 public class Calculator extends JPanel{
@@ -23,11 +23,32 @@ public class Calculator extends JPanel{
     private GestorePannelli gestore;
 
     private JFrame window;
-    private JComboBox<String> comboCalcType, comboTheme;
+    private JComboBox<String> comboCalcType;
+    private JComboBox<String> comboTheme;
     private JTextField inputText; // Input
-    private JButton buttonBack, btnBack, btnMod, btnDiv, btnMul, btnSub, btnAdd,
-            btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9,
-            btnPoint, btnEqual, btnRoot, btnPower, btnLog;
+    private JButton buttonBack;
+    private JButton btnBack;
+    private JButton btnMod;
+    private JButton btnDiv;
+    private JButton btnMul;
+    private JButton btnSub;
+    private JButton btnAdd;
+    private JButton btn0;
+    private JButton btn1;
+    private JButton btn2;
+    private JButton btn3;
+    private JButton btn4;
+    private JButton btn5;
+    private JButton btn6;
+    private JButton btn7;
+    private JButton btn8;
+    private JButton btn9;
+    private JButton btnPoint;
+    private JButton btnEqual;
+    private JButton btnRoot;
+    private JButton btnPower;
+    private JButton btnLog;
+
 
     private char operator = ' ';
     private boolean onCal = true;
@@ -467,6 +488,10 @@ public class Calculator extends JPanel{
                 btnPower.setVisible(true);
                 btnLog.setVisible(true);
                 break;
+            default:
+                //n.b
+                inputText.setFont(inputText.getFont().deriveFont(Font.PLAIN));
+                return;
         }
     };
 

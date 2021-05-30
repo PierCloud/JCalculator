@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="clean white space">
-      <change beforePath="$PROJECT_DIR$/checkstyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
+    <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="removed whitespace check">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
@@ -125,7 +113,8 @@
       <workItem from="1621788604405" duration="7141000" />
       <workItem from="1621808908151" duration="3182000" />
       <workItem from="1622155634485" duration="380000" />
-      <workItem from="1622285532347" duration="6448000" />
+      <workItem from="1622285532347" duration="7064000" />
+      <workItem from="1622411612563" duration="688000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1622155782205</created>
@@ -169,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622325860958</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="removed whitespace check">
+      <created>1622325991700</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622325991700</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +190,7 @@
     <MESSAGE value="add calculator" />
     <MESSAGE value="clean" />
     <MESSAGE value="clean white space" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean white space" />
+    <MESSAGE value="removed whitespace check" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed whitespace check" />
   </component>
 </project>

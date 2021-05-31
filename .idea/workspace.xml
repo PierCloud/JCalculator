@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="adding sonnar">
+    <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="remove comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uni/c/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uni/c/calculator/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +128,7 @@
       <workItem from="1622155634485" duration="380000" />
       <workItem from="1622285532347" duration="7064000" />
       <workItem from="1622411612563" duration="2911000" />
-      <workItem from="1622457420927" duration="1287000" />
+      <workItem from="1622457420927" duration="2043000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1622155782205</created>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622458095744</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="remove comments">
+      <created>1622459178976</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1622459178976</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +244,7 @@
     <MESSAGE value="clean code: removed unused import" />
     <MESSAGE value="clean code: refactore name package" />
     <MESSAGE value="adding sonnar" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding sonnar" />
+    <MESSAGE value="remove comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove comments" />
   </component>
 </project>

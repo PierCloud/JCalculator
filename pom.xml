@@ -14,7 +14,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+
+        <sonar.projectKey>PierCloud_JCalculator</sonar.projectKey>
+        <sonar.organization>piercloud</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
+
+
 
     <distributionManagement>
         <repository>
@@ -37,12 +43,6 @@
             <artifactId>maven-checkstyle-plugin</artifactId>
             <version>3.1.1</version>
             <type>maven-plugin</type>
-        </dependency>
-
-        <dependency>
-            <groupId>org.sonarsource.scanner.maven</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.6.0.1398</version>
         </dependency>
 
     </dependencies>
@@ -99,42 +99,6 @@
             </executions>
         </plugin>
 
-
-
     </plugins>
     </build>
-
-    <profiles>
-    <profile>
-        <id>sonar</id>
-        <properties>
-            <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-            <sonar.organization>piercloud</sonar.organization>
-            <sonar.projectKey>PierCloud_JCalculator</sonar.projectKey>
-            <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
-        </properties>
-        <activation>
-            <activeByDefault>false</activeByDefault>
-        </activation>
-        <build>
-            <plugins>
-                <plugin>
-                    <groupId>org.sonarsource.scanner.maven</groupId>
-                    <artifactId>sonar-maven-plugin</artifactId>
-                    <version>3.6.0.1398</version>
-                    <executions>
-                        <execution>
-                            <phase>verify</phase>
-                            <goals>
-                                <goal>sonar</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
-            </plugins>
-        </build>
-    </profile>
-    </profiles>
-
-
 </project>

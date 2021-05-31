@@ -15,7 +15,7 @@ class CalculatorTest {
     }
 
     /*
-     * testCalc() test method
+     * testing class, test method
      */
     @Test
     void testCalc() {

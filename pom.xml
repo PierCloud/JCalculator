@@ -39,6 +39,12 @@
             <type>maven-plugin</type>
         </dependency>
 
+        <dependency>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.6.0.1398</version>
+        </dependency>
+
     </dependencies>
 
     <reporting>
@@ -93,7 +99,42 @@
             </executions>
         </plugin>
 
+
+
     </plugins>
     </build>
+
+    <profiles>
+    <profile>
+        <id>sonar</id>
+        <properties>
+            <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+            <sonar.organization>piercloud</sonar.organization>
+            <sonar.projectKey>PierCloud_JCalculator</sonar.projectKey>
+            <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
+        </properties>
+        <activation>
+            <activeByDefault>false</activeByDefault>
+        </activation>
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.sonarsource.scanner.maven</groupId>
+                    <artifactId>sonar-maven-plugin</artifactId>
+                    <version>3.6.0.1398</version>
+                    <executions>
+                        <execution>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>sonar</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </build>
+    </profile>
+    </profiles>
+
 
 </project>

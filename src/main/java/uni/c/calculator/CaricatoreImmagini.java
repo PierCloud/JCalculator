@@ -7,7 +7,6 @@ CLASSE GUI CARICATORE IMMAGINI
 
 /*import*/
 import java.awt.image.BufferedImage;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;

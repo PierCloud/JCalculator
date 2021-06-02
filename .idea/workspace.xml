@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="rework and clean + adding dockerfile">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Cattura.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logo_uni.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pulsante_info.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sfondo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/start.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uni/c/calculator/CaricatoreImmagini.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uni/c/calculator/CaricatoreImmagini.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Introduzione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Introduzione.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JCalculator-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JCalculator-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uni/c/calculator/CaricatoreImmagini.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uni/c/calculator/CaricatoreImmagini.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uni/c/calculator/Introduzione.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uni/c/calculator/Introduzione.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uni/c/calculator/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uni/c/calculator/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +153,7 @@
       <workItem from="1622586308022" duration="5461000" />
       <workItem from="1622618321238" duration="9120000" />
       <workItem from="1622627674535" duration="3176000" />
-      <workItem from="1622632684818" duration="548000" />
+      <workItem from="1622632684818" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1622155782205</created>
@@ -281,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622625848357</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="rework and clean + adding dockerfile">
+      <created>1622633275866</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1622633275866</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

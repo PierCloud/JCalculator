@@ -1,10 +1,10 @@
 it\c\mytest\CalculatorMyTest.class
+uni\c\calculator\Frame.class
+uni\c\calculator\CaricatoreImmagini.class
+uni\c\calculator\Calculator.class
 uni\c\calculator\Menu.class
 uni\c\calculator\Main.class
-uni\c\calculator\Frame.class
 uni\c\calculator\Menu$1.class
 uni\c\calculator\GestorePannelli.class
 uni\c\calculator\Introduzione.class
 uni\c\calculator\Menu$MioListner.class
-uni\c\calculator\CaricatoreImmagini.class
-uni\c\calculator\Calculator.class

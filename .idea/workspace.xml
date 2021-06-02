@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="remove comments">
+    <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="rework">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_scanner_api_sonar_scanner_api_2_12_0_1661.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_scanner_maven_sonar_maven_plugin_3_6_0_1398.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uni/c/calculator/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyTest/CalculatorMyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uni/c/calculator/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uni/c/calculator/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uni/c/calculator/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uni/c/calculator/CalculatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +63,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="Calculator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uni.c.calculator.Calculator" />
-      <module name="Calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uni.c.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.houarizegai.calculator.Calculator" />
       <module name="Calculator" />
@@ -81,8 +82,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uni.c.calculator.main" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni.c.calculator.Calculator" />
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uni.c.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni.c.calculator.Main" />
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
@@ -107,9 +121,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Calculator (1)" />
         <item itemvalue="Application.Calculator" />
       </list>
@@ -128,7 +153,11 @@
       <workItem from="1622155634485" duration="380000" />
       <workItem from="1622285532347" duration="7064000" />
       <workItem from="1622411612563" duration="2911000" />
-      <workItem from="1622457420927" duration="2043000" />
+      <workItem from="1622457420927" duration="3082000" />
+      <workItem from="1622498826281" duration="644000" />
+      <workItem from="1622585289985" duration="641000" />
+      <workItem from="1622586308022" duration="5461000" />
+      <workItem from="1622618321238" duration="4919000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1622155782205</created>
@@ -214,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622459178976</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="rework">
+      <created>1622459917380</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1622459917380</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +281,7 @@
     <MESSAGE value="clean code: refactore name package" />
     <MESSAGE value="adding sonnar" />
     <MESSAGE value="remove comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove comments" />
+    <MESSAGE value="rework" />
+    <option name="LAST_COMMIT_MESSAGE" value="rework" />
   </component>
 </project>

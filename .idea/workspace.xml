@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="rework">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_scanner_api_sonar_scanner_api_2_12_0_1661.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_scanner_maven_sonar_maven_plugin_3_6_0_1398.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" afterDir="false" />
+    <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="rework and clean + adding dockerfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uni/c/calculator/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyTest/CalculatorMyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uni/c/calculator/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uni/c/calculator/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/uni/c/calculator/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uni/c/calculator/CalculatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +147,7 @@
       <workItem from="1622498826281" duration="644000" />
       <workItem from="1622585289985" duration="641000" />
       <workItem from="1622586308022" duration="5461000" />
-      <workItem from="1622618321238" duration="4919000" />
+      <workItem from="1622618321238" duration="7059000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1622155782205</created>
@@ -250,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622459917380</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="rework and clean + adding dockerfile">
+      <created>1622623411645</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1622623411645</updated>
+    </task>
+    <task id="LOCAL-00015" summary="rework and clean + adding dockerfile">
+      <created>1622623553913</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1622623553913</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +286,7 @@
     <MESSAGE value="adding sonnar" />
     <MESSAGE value="remove comments" />
     <MESSAGE value="rework" />
-    <option name="LAST_COMMIT_MESSAGE" value="rework" />
+    <MESSAGE value="rework and clean + adding dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="rework and clean + adding dockerfile" />
   </component>
 </project>

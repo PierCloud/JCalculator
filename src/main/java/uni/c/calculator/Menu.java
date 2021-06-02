@@ -101,11 +101,11 @@ public  class Menu extends JPanel implements ActionListener {
       */
     public void caricaImmagini(){
 
-        sfondo=mioCaricatoreI.caricatoreImmagini("src/main/java/immagini/sfondo.jpg");
-        bottoneStart=mioCaricatoreI.caricatoreImmagini("src/main/java/immagini/start.png");
+        sfondo=mioCaricatoreI.caricatoreImmagini("sfondo.jpg");
+        bottoneStart=mioCaricatoreI.caricatoreImmagini("start.png");
         iconaStart=mioCaricatoreI.caricaIcona(bottoneStart);
-        iconaUni=mioCaricatoreI.caricatoreImmagini("src/main/java/immagini/logo_uni.png");
-        bottoneInfo=mioCaricatoreI.caricatoreImmagini("src/main/java/immagini/pulsante_info.png");
+        iconaUni=mioCaricatoreI.caricatoreImmagini("logo_uni.png");
+        bottoneInfo=mioCaricatoreI.caricatoreImmagini("pulsante_info.png");
         iconaInfo=mioCaricatoreI.caricaIcona(bottoneInfo);
         iconaInfo.getImage();
         iconaStart.getImage();

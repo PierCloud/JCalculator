@@ -32,7 +32,7 @@ public class CaricatoreImmagini {
 
         try {
             //serve per Andare nella cartella risorse e caricare le immagine la contenute
-            immagine=ImageIO.read(new FileInputStream(posizione));
+            immagine=ImageIO.read(getClass().getClassLoader().getResource(posizione));
         } catch (IOException ex) {
             Logger.getLogger(CaricatoreImmagini.class.getName()).log(Level.SEVERE, null, ex);
         }

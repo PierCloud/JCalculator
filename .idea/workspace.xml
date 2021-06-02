@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac8a51a0-c16e-491e-ae53-956e2a2dcb5a" name="Default Changelist" comment="rework and clean + adding dockerfile">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Cattura.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logo_uni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pulsante_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sfondo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/start.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uni/c/calculator/CaricatoreImmagini.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uni/c/calculator/CaricatoreImmagini.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Introduzione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Introduzione.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uni/c/calculator/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JCalculator-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JCalculator-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uni/c/calculator/CaricatoreImmagini.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uni/c/calculator/CaricatoreImmagini.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uni/c/calculator/Introduzione.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uni/c/calculator/Introduzione.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uni/c/calculator/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uni/c/calculator/Menu.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +65,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pierd\OneDrive\Desktop\Calculator-master\src\main\resources" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.houarizegai.calculator.Calculator" />
       <module name="Calculator" />
@@ -98,15 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,9 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Calculator (1)" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
@@ -147,7 +165,9 @@
       <workItem from="1622498826281" duration="644000" />
       <workItem from="1622585289985" duration="641000" />
       <workItem from="1622586308022" duration="5461000" />
-      <workItem from="1622618321238" duration="7059000" />
+      <workItem from="1622618321238" duration="9120000" />
+      <workItem from="1622627674535" duration="3176000" />
+      <workItem from="1622632684818" duration="548000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1622155782205</created>
@@ -254,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622623553913</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="rework and clean + adding dockerfile">
+      <created>1622625848357</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1622625848357</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

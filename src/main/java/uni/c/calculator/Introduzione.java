@@ -108,9 +108,9 @@ public  class Introduzione extends JPanel implements ActionListener{
       */
     public void caricaImmagini(){
 
-        sfondo=mioCaricatoreI.caricatoreImmagini("src/main/java/immagini/cattura.PNG");
+        sfondo=mioCaricatoreI.caricatoreImmagini("Cattura.PNG");
 
-        bottoneStart=mioCaricatoreI.caricatoreImmagini("src/main/java/immagini/start.png");
+        bottoneStart=mioCaricatoreI.caricatoreImmagini("start.png");
         iconaStart=mioCaricatoreI.caricaIcona(bottoneStart);
         iconaStart.getImage();
         this.caricate=true;

@@ -64,7 +64,7 @@ public  class Introduzione extends JPanel implements ActionListener{
       * @param gestore GestorePannelli
      */
     public Introduzione (JFrame finestra,GestorePannelli gestore){
-        System.out.println("COSTRUTTORE Intro");
+        System.out.println("COSTRUTTORE - Intro");
         this.gestore=gestore;
         this.finestra=finestra;
         mioCaricatoreI=new CaricatoreImmagini();

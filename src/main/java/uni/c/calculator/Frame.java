@@ -19,7 +19,7 @@ public  class Frame {
 
     public Frame() throws Exception{
 
-        JFrame finestra=new JFrame("INTERFACCIA");
+        JFrame finestra=new JFrame("INTERFACCIA_1");
         Dimension dimensioneGioco=new Dimension(larghezza,altezza);
         finestra.setPreferredSize(dimensioneGioco);
         finestra.setResizable(false);

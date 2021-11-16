@@ -44,7 +44,7 @@ jobs:
           path: target/JCalculator-1.0-SNAPSHOT.jar
           name: JCalculator1.0
       - name: Build and Push Docker Image
-        uses: piercloud
+        uses: mr-smithers-excellent/docker-build-push@v4
         with:
          image: pier22/j_c
          registry: docker.io
